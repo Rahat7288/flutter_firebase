@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "287903672352",
+    "project_id": "fb-auth-project-cbfef",
+    "storage_bucket": "fb-auth-project-cbfef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:287903672352:android:4d72cd772e5cfa61c23445",
+        "android_client_info": {
+          "package_name": "com.example.flutter_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "287903672352-9g6fj7u8nr9nqs327s1pm1r1ceri0aj9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkAuucLHrH34uCL2d-ASePtjwHiFuH74M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "287903672352-9g6fj7u8nr9nqs327s1pm1r1ceri0aj9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "287903672352-9roj8oi48pdalmpg8u4sbd6o0lfk3no1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.flutterFirebase"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

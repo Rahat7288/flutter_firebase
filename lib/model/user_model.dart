@@ -30,6 +30,17 @@ class User extends Equatable {
     );
   }
 
+  factory User.initialUser() {
+    return User(
+      id: '',
+      name: '',
+      email: '',
+      profileImage: '',
+      point: -1,
+      rank: '',
+    );
+  }
+
   @override
   List<Object> get props {
     return [

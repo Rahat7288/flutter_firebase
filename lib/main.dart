@@ -3,6 +3,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter_firebase/bloc/auth/auth_bloc.dart';
+import 'package:flutter_firebase/bloc/signin/signin_cubit.dart';
 import 'package:flutter_firebase/pages/home_page.dart';
 import 'package:flutter_firebase/pages/sign_page.dart';
 import 'package:flutter_firebase/pages/signup_page.dart';
@@ -37,6 +38,11 @@ class MyApp extends StatelessWidget {
         providers: [
           BlocProvider<AuthBloc>(
             create: (context) => AuthBloc(
+              authRepository: context.read<AuthRepository>(),
+            ),
+          ),
+          BlocProvider<SigninCubit>(
+            create: (context) => SigninCubit(
               authRepository: context.read<AuthRepository>(),
             ),
           ),
